@@ -18,7 +18,7 @@ $(function() {
 
     if (past.getFullYear() !== now.getFullYear()) {
       toRefresh -= 1;
-      return past.toLocaleString("en-US", {
+      return past.toLocaleString("ru-RU", {
         year: "numeric",
         month: "short",
         day: "numeric"
@@ -27,7 +27,7 @@ $(function() {
 
     if (past.getMonth() !== now.getMonth()) {
       toRefresh -= 1;
-      return past.toLocaleString("en-US", {
+      return past.toLocaleString("ru-RU", {
         month: "short",
         day: "numeric"
       });
@@ -35,23 +35,28 @@ $(function() {
 
     let seconds = Math.floor((now - past) / 1000);
 
+    function plural(number, titles) {
+      cases = [2, 0, 1, 1, 1, 2];
+      return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10<5)?number%10:5] ];
+    }
+
     let day = Math.floor(seconds / 86400);
     if (day >= 1) {
       toRefresh -= 1;
-      return day + " day" + (day > 1 ? "s" : "") + " ago";
+      return day + " " + plural(day, ['день', 'дня', 'дней']) + " назад";
     }
 
     let hour = Math.floor(seconds / 3600);
     if (hour >= 1) {
-      return hour + " hour" + (hour > 1 ? "s" : "") + " ago";
+      return hour + " " + plural(hour, ['час', 'часа', 'часов']) + " назад";
     }
 
     let minute = Math.floor(seconds / 60);
     if (minute >= 1) {
-      return minute + " minute" + (minute > 1 ? "s" : "") + " ago";
+      return minute + " " + plural(minute, ['минуту', 'минуты', 'минут']) + " назад";
     }
 
-    return (isLastmod ? "just" : "Just") + " now";
+    return (isLastmod ? "прямо" : "Прямо") + " сейчас";
   }
 
   function updateTimeago() {

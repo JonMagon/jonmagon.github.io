@@ -7,8 +7,8 @@
 
 panel:
   lastmod: "Recent Update"
-  trending_tags: "Trending Tags"
-  toc: "Contents"
+  trending_tags: "Популярные теги"
+  toc: "Содержание"
 
 post:
   relate_posts: "Further Reading"
@@ -16,4 +16,4 @@ post:
     next: Newer
     previous: Older
 
-search_hint: "Search"   # text show on search bar
+search_hint: "Поиск"   # text show on search bar
