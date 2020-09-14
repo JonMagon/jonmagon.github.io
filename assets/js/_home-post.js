@@ -10,6 +10,7 @@
 
 {% include_relative _utils/timeago.js %}
 
+{% include_relative _utils/plural-word.js %}
 
 {% if site.google_analytics.pv.enabled %}
 
