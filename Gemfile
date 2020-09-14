@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem "jekyll-compose"
+  gem "liquid_reading_time"
 end
 
 group :test do
