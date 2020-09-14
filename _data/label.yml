@@ -13,7 +13,7 @@ panel:
 post:
   relate_posts: "Further Reading"
   button:
-    next: Newer
-    previous: Older
+    next: Следующая запись
+    previous: Предыдущая запись
 
 search_hint: "Поиск"   # text show on search bar

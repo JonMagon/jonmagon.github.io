@@ -10,12 +10,10 @@
 
 title: Dmitry Sidorov                  # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline:                               # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  A place to put my stuff.
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://jonmagon.github.io'
@@ -28,7 +26,7 @@ github:
   username: JonMagon                    # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: JonMagon                    # change to your twitter username
 
 social:
   name: Dmitry Sidorov                  # it will shows as the copyright owner in Footer
@@ -119,7 +117,7 @@ defaults:
       location: Post
       breadcrumb:
         -
-          label: Posts
+          label: Записи
           url: /
   -
     scope:
@@ -134,10 +132,10 @@ defaults:
       location: Tag
       breadcrumb:
         -
-          label: Home
+          label: Домашняя
           url: /
         -
-          label: Tags
+          label: Теги
           url: /tabs/tags/
   -
     scope:
@@ -147,10 +145,10 @@ defaults:
       location: Category
       breadcrumb:
         -
-          label: Home
+          label: Домашняя
           url: /
         -
-          label: Categories
+          label: Категории
           url: /tabs/categories/
   -
     scope:
@@ -160,7 +158,7 @@ defaults:
       dynamic_title: true    # Hide title in mobile screens.
       breadcrumb:
         -
-          label: Home
+          label: Домашняя
           url: /
 
 

@@ -10,6 +10,10 @@ label: "Поделиться"
 
 platforms:
   -
+    type: VK
+    icon: "fab fa-vk"
+    link: "https://vk.com/share.php?url=URL"
+  -
     type: Twitter
     icon: "fab fa-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
