@@ -6,12 +6,12 @@
 
 
 panel:
-  lastmod: "Recent Update"
+  lastmod: "Недавно обновлено"
   trending_tags: "Популярные теги"
   toc: "Содержание"
 
 post:
-  relate_posts: "Further Reading"
+  relate_posts: "Похожие записи"
   button:
     next: Следующая запись
     previous: Предыдущая запись
