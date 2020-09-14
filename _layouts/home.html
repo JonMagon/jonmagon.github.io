@@ -59,7 +59,11 @@ layout: page
     <div class="post-content">
       <p>
         {% include no-linenos.html content=post.content %}
-        {{ content | markdownify | strip_html | truncate: 200 }}
+        {% if content contains '<!--summary.start-->' and post.content contains '<!--summary.end-->' %}
+          {{ content | split: '<!--summary.start-->' | last | split: '<!--summary.end-->' | first | markdownify | strip_html | truncatewords: 200 }}
+        {% else %}
+          {{ content | markdownify | strip_html | truncate: 200 }}
+        {% endif %}
       </p>
     </div>
 

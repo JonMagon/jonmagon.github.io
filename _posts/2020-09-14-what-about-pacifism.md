@@ -9,7 +9,9 @@ tags: [Перевод]
 > [Автор оригинала: Krisha Kops](https://www.theeuropean.de/krisha-kops/11533-wie-steht-es-mit-dem-pazifismus)
 
 ## Кто такой Ганди?
+<!--summary.start-->
 Зачастую пацифизм, особенно в политике, называют «Донкихотством», «нереальной политикой». Но разве тот факт, что пацифисту, возможно, придётся иметь дело с агрессором, означает, что его идеал бесполезен?
+<!--summary.end-->
 
 ![kallejipp / photocase.com](/assets/img/adc5cb0a45.jpeg)
 
