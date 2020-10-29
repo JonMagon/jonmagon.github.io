@@ -4,6 +4,10 @@ title: KDiskMark - тестирование производительности
 date: 2020-10-29 18:13 +0300
 ---
 
+<style type="text/css">.post-content img {
+    filter: unset!important;
+}</style>
+
 ![Главное окно приложения](/assets/img/Screenshot_20201029_183104.png)
 
 <!--summary.start-->
