@@ -2,6 +2,8 @@
 layout: post
 title: KDiskMark — тестирование производительности дисков
 date: 2020-10-29 18:13 +0300
+categories: [Программирование]
+tags: [С++, Qt]
 ---
 
 <style type="text/css">.post-content img {
