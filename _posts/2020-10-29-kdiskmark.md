@@ -5,7 +5,9 @@ date: 2020-10-29 18:13 +0300
 ---
 
 <div style="filter: brightness(100%)">
+
 ![Главное окно приложения](/assets/img/Screenshot_20201029_183104.png)
+
 </div>
 
 <!--summary.start-->
